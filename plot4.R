@@ -1,5 +1,5 @@
 library(tidyverse)
-library(scales)
+library(gridExtra)
 
 data <- read.table('household_power_consumption.txt',
            sep = ';',

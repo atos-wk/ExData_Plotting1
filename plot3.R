@@ -1,5 +1,4 @@
 library(tidyverse)
-library(scales)
 
 plot3 <- read.table('household_power_consumption.txt',
            sep = ';',
